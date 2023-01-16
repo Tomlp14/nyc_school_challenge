@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">20230115-TomasLopez-NYCSchools</string>
+    <string name="empty" />
+    <string name="school_name">School Name</string>
+    <string name="school_address">School Address</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="math">Math</string>
+    <string name="full_score">600</string>
+    <string name="critical_reading">Critical Reading</string>
+    <string name="writing">Writing</string>
+    <string name="num_task_taker">Number of task takers</string>
+    <string name="sat_scores">SAT Scores</string>
+    <string name="nyc_school_challenges">20230115-TomasLopez-NYCSchools</string>
+    <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close">Close</string>
+</resources>
