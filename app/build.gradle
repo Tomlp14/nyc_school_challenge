@@ -57,13 +57,13 @@ dependencies {
 
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.0'
 
-    //add retrofit dependencies
+    //retrofit dependencies
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation "com.squareup.retrofit2:converter-moshi:2.4.0"
 
 
-    //add data binding dependencies
+    //view dependencies
     implementation "androidx.databinding:databinding-adapters:7.3.1"
     implementation "androidx.databinding:databinding-runtime:7.3.1"
     implementation "androidx.databinding:databinding-common:7.3.1"
@@ -74,10 +74,6 @@ dependencies {
 
     implementation "androidx.fragment:fragment:1.5.5"
     implementation "androidx.fragment:fragment-ktx:1.5.5"
-
-    //add rxjava dependencies
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.21'
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     implementation "androidx.cardview:cardview:1.0.0"
