@@ -7,7 +7,7 @@ import com.example.nyc_school_challenges.model.SchoolModel
 import com.example.nyc_school_challenges.model.State
 import com.example.nyc_school_challenges.repo.SchoolsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.*
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject

@@ -2,7 +2,6 @@ package com.example.nyc_school_challenges.network
 
 import com.example.nyc_school_challenges.model.HighSchool
 import com.example.nyc_school_challenges.model.SATScore
-import retrofit2.Call
 import retrofit2.http.GET
 
 interface NYCOpenDataAPI {

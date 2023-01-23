@@ -3,7 +3,6 @@ package com.example.nyc_school_challenges
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,7 +18,7 @@ class ScoreFragment : DialogFragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setStyle(DialogFragment.STYLE_NORMAL,
+        setStyle(STYLE_NORMAL,
             //android.R.style.Theme_Material_Light_NoActionBar_Fullscreen);
             android.R.style.Theme_Material_Light_NoActionBar_Fullscreen)
 

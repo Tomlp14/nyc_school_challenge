@@ -6,11 +6,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.moshi.MoshiConverterFactory
-
-
-//we will add dependency injection from hilt here
-
 @InstallIn(ViewModelComponent::class)
 @Module
 object NYCOpenDataNetworkModule {

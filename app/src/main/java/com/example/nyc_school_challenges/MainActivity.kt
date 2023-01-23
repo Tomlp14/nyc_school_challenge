@@ -1,15 +1,9 @@
 package com.example.nyc_school_challenges
 
-import android.app.SearchManager
-import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
-import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
-import androidx.compose.runtime.collectAsState
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,9 +11,6 @@ import com.example.nyc_school_challenges.adapter.SearchItemAdapter
 import com.example.nyc_school_challenges.databinding.ActivityMainBinding
 import com.example.nyc_school_challenges.viewmodel.SchoolViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 
@@ -56,7 +47,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.search, menu)
         this.menu = menu
-        val manager = getSystemService(Context.SEARCH_SERVICE)
 
         val search = menu.findItem(R.id.search)
 
