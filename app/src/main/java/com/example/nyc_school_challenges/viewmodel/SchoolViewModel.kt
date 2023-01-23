@@ -1,11 +1,8 @@
 package com.example.nyc_school_challenges.viewmodel
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nyc_school_challenges.model.Result
-import com.example.nyc_school_challenges.model.SATScore
 import com.example.nyc_school_challenges.model.SchoolModel
 import com.example.nyc_school_challenges.model.State
 import com.example.nyc_school_challenges.repo.SchoolsRepository
@@ -29,7 +26,6 @@ class SchoolViewModel @Inject constructor(val repository : SchoolsRepository) : 
     val lCurrentSelection : StateFlow<SchoolModel>
         get() = mCurrentSelection
 
-    @OptIn(DelicateCoroutinesApi::class)
     fun fetchSchools() {
 
         if (mState.value.message != Result.Ready) {
